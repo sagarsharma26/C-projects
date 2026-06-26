@@ -23,7 +23,8 @@ int main()
 
     while(1)
     {
-        printf("\n (*_*) LIBRARY MANAGEMENT SYSTEM (*_*)\n");
+        printf("\n\tLIBRARY MANAGEMENT SYSTEM\n");
+        printf("\t__________________________\n\n");
         printf("1. Add Book\n");
         printf("2. Display Books\n");
         printf("3. Search Book\n");
