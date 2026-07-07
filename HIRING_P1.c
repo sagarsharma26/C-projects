@@ -37,5 +37,7 @@ int main()
         printf("\nName:%s %s",first,last);
         printf(" is Rejected");
     }
+
+ return 0;
     
 }
