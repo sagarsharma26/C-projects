@@ -78,13 +78,17 @@ void mul()
 }
 void divi()
 {
-    int a,b,div;
+    float a,b,div;
 
     printf("Enter your first number:");
-    scanf("%d",&a);
+    scanf("%f",&a);
     printf("Enter your second number:");
-    scanf("%d",&b);
+    scanf("%f",&b);
 
-    div = a / b;
-    printf("Divide of two number is %d",div);
+    if(b==0){
+        printf("ERROR!division by 0 isn't possible.");
+    }else{
+        div = a / b;
+     printf("Division of two number is %.2f",div);
+    }
 }

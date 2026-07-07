@@ -12,7 +12,7 @@ int main(){
 
     if(choice<1 || choice>100){
         printf("Please enter number between 1 to 100.\n");
-return 0;
+        return 0;
     }
 
     bool found = false;
