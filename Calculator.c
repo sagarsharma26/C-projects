@@ -11,7 +11,7 @@ int main(){
 
     printf("------CALCULATOR------\n\n");
     printf("1.ADDITION\n2.SUBTRACTION\n3.MULTIPLICATION\n4.DIVISION\n");
-    printf("Enter your operator(+,-,*,/):");
+    printf("Enter your operator:");
     scanf("%d",&choice);
 
 
