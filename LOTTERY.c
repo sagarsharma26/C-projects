@@ -17,7 +17,7 @@ int main(){
     bool found = false;
     int list;
 
-    for(int i=0;i<=size;i++){
+    for(int i=0;i<size;i++){
         if(choice == luckynum[i]){
             found = true;
             break;
