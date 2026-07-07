@@ -7,15 +7,15 @@ int main(){
     int size = sizeof(luckynum)/sizeof(luckynum[0]);
 
     int choice;
-    printf("choose your lucky number b/w(1 to 100):");
+    printf("choose your lucky number(1-100):");
     scanf("%d",&choice);
 
     if(choice<1 || choice>100){
         printf("Please enter number between 1 to 100.\n");
+return 0;
     }
 
     bool found = false;
-    int list;
 
     for(int i=0;i<size;i++){
         if(choice == luckynum[i]){
