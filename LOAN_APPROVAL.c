@@ -50,7 +50,7 @@ int main(){
     else{
         printf("\n\nyour loan has been rejected due to our terms and policies. ");
     }
-    
-    
 
+
+ return 0;
 }
