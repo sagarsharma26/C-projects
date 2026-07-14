@@ -1,10 +1,18 @@
 #include<stdio.h>
 #include<stdbool.h>
+#include<stdlib.h>
+#include<time.h>
 
 int main(){
 
-    int luckynum[]={23,45,76,89,93};
+    srand(time(NULL));
+
+    int luckynum[5];
     int size = sizeof(luckynum)/sizeof(luckynum[0]);
+
+    for(int i=0;i<size;i++){
+        luckynum[i]=rand()%100+1;
+    }
 
     int choice;
     printf("choose your lucky number(1-100):");
