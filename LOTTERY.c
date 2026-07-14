@@ -35,7 +35,16 @@ int main(){
         printf("CONGRATULATIONS!You won the prize");
     }else{
         printf("Better luck next time.");
+
     }
+
+    // This is only for testing random numbers
+    
+    // printf("\nLucky numbers were: ");
+    // for(int i = 0; i < size; i++)
+    // {
+    //     printf("%d ", luckynum[i]);
+    // }
 
     return 0;
     
