@@ -28,14 +28,15 @@ int main()
     else if(strcmpi(country,"india")==0 && age>=18 && exp>=5)  //strcmpi use to check each letter of variable 
     {
         
-        printf("\nName:%s %s",first,last);
-        printf(" is selected");
+        printf("\n%s %s",first,last);
+        printf(" is selected for interview.");
 
     }
     
     else{
-        printf("\nName:%s %s",first,last);
-        printf(" is Rejected");
+        printf("\n%s %s",first,last);
+        printf(" is Rejected for interview.");
+        printf("\nBetter luck next time.");
     }
 
  return 0;
